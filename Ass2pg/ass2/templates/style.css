@@ -1,0 +1,75 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c8ef1;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .logo-container {
+    order: 2; /* Move the logo container to the end */
+  }
+  
+  .logo-container img {
+    height: 40px; /* Adjust the logo size as needed */
+  }
+  
+  /* Style the navigation links */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Thesis Topics Section */
+  .thesis-topics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .thesis-topic {
+    background-color: #47a3d5;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+  }
+  
+  .thesis-topic:hover {
+    transform: translateY(-5px);
+  }
+  
+  .thesis-topic img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .thesis-topic h3 {
+    margin-top: 0;
+  }
+  
+  .thesis-topic p {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #407bba;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

@@ -1,0 +1,75 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis Topics</title>
+    <link rel="stylesheet" href="{% static 'yt_app/css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <ul>
+        <a href="#">Home</a>
+        <a href="#">Project</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </ul>
+  </nav>
+
+  <div class="thesis-topics">
+    <a href="thesis-topic-1.html" class="thesis-topic">
+      <img src="{% static 'yt_app/images/thesis1.jpg'%}" alt="Thesis Topic 1">
+      <h3>Machine learning approaches for Cyber Security </h3>
+      <p>Category: Artificial Intelligence, Machine Learning and Data Science</p>
+      <p>Supervisor: Bharanidharan Shanmugam</p>
+    </a>
+    <a href="thesis-topic-2.html" class="thesis-topic">
+      <img src="{% static 'yt_app/images/thesis2.jpg'%}" alt="Thesis Topic 2">
+      <h3>Informetrics applications in multidisciplinary domain</h3>
+      <p>Category: Artificial Intelligence, Machine Learning and Data Science</p>
+      <p>Supervisor: Yakub Sebastian</p>
+    </a>
+    <a href="thesis-topic-3.html" class="thesis-topic">
+      <img src="{% static 'yt_app/images/thesis3.jpeg'%}" alt="Thesis Topic 3">
+      <h3>Development of a Virtual Reality System to Test Binaural Hearing</h3>
+      <p>Category: Biomedical Engineering and Health Informatics</p>
+      <p>Supervisor: Sami Azam</p>
+    </a>
+    <a href="thesis-topic-4.html" class="thesis-topic">
+      <img src="{% static 'yt_app/images/thesis4.jpeg'%}" alt="Thesis Topic 4">
+      <h3>Current trends on cryptomining and its potential impact on cryptocurrencies</h3>
+      <p>Category: Cyber Security</p>
+      <p>Supervisor: Sami Azam</p>
+    </a>
+    <a href="thesis-topic-5.html" class="thesis-topic">
+      <img src="{% static 'yt_app/images/thesis5.jpeg'%}" alt="Thesis Topic 5">
+      <h3>Artificial Intelligence in Health Informatics</h3>
+      <p>Category: Artificial Intelligence, Machine Learning and Data Science</p>
+      <p>Supervisor: Asif Karim</p>
+    </a>
+    <a href="thesis-topic-6.html" class="thesis-topic">
+      <img src="{% static 'yt_app/images/thesis6.png'%}" alt="Thesis Topic 6">
+      <h3>Unsupervised Model Development from Autism Screening Data </h3>
+      <p>Category: Artificial Intelligence, Machine Learning and Data Science</p>
+      <p>Supervisor: Asif Karim</p>
+    </a>
+    <a href="thesis-topic-7.html" class="thesis-topic">
+      <img src="{% static 'yt_app/images/thesis7.jpeg'%}" alt="Thesis Topic 7">
+      <h3>Applying Artificial Intelligence to solve real world problems</h3>
+      <p>Category: Artificial Intelligence, Machine Learning and Data Science</p>
+      <p>Supervisor: Bharanidharan Shanmugam</p>
+    </a>
+  </div>
+
+<footer>
+    <p>&copy; 2024 Thesis Topics. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
